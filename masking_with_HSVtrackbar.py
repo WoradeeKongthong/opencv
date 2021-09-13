@@ -43,3 +43,6 @@ while True:
 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
          break
+     
+cv2.waitKey(0) #0=never close, 5000=5000ms
+cv2.destroyAllWindows()
